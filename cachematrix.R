@@ -2,6 +2,11 @@
 ## functions do
 
 ## Write a short comment describing this function
+## makeCacheMatrix uses scoping rules and stores matrices in memory
+## set the value of the vector
+## get the value of the vector
+## set the value of the mean
+## get the value of the mean
 
 makeCacheMatrix <- function(x = matrix()) {
       m <- NULL
@@ -18,6 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
+## cacheSolve uses corpcor, a library that avoids determinants and uses orthogonal descomposition
+## note: this function will try to load corpcor library and if it's not installed will try to install the library
 
 cacheSolve <- function(x, ...) {
 ## Return a matrix that is the inverse of 'x'
